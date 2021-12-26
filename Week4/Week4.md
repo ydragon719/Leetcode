@@ -3,3 +3,4 @@ LSB算法：将载体图像的RGB值的最低有效位替换为加密水印的RG
 加密水印：先解码出水印值的RGB值，然后对RGB值加密，可使用DES，AES加密算法，将一个RGB值分为一组，使用水印图片大小（宽高）为密钥值
 具体配置如下：python3.10以及对应版本Pycharm或者VScode
 python库及应用：opencv,PIL处理图片；tkinter设计图形化界面GUI
+LSB1为加密水印嵌入，LSB2为加密水印提取
